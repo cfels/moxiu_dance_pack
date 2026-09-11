@@ -33,7 +33,8 @@ return {
 				Cycle = 0.33333334326744
 			},
 			Sound = {
-				Time1 = 85.89		
+				Time1 = 200.12,
+				Time2 = 200.12
 			}									
 		},	
 		Coop = {  
