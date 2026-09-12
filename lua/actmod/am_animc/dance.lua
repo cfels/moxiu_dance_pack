@@ -8,7 +8,9 @@ return {
 			isNew = true
 		},
 		About = {
-			Author = "moxiu"
+			Author = "moxiu",
+			S64 = "76561199401481050",
+			Version = "1"
 		},
 		Camera = {
 			Follow = false,
@@ -48,7 +50,9 @@ return {
 			isNew = true
 		},
 		About = {
-			Author = "moxiu"
+			Author = "moxiu",
+			S64 = "76561199401481050",
+			Version = "1"
 		},
 		Camera = {
 			Follow = false,
