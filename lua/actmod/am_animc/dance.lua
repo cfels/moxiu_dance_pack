@@ -1,25 +1,14 @@
 return {
-    --["buggin_dance"] = {
-    --    Config = {
-    --        Anim = "buggin_dance",
-    --        Name = "baby u buggin - tt dance",
-    --        
-    --    }
-   -- }
-   -- "Amod_Fortnite_Darling"
-   -- "Amod_Fortnite_FancyFeet"
-    -- "Amod_Fortnite_HipHop_01"
-    -- "Amod_Fortnite_Jiggle"
-    -- "Amod_Fortnite_JumpstyleDance"
-    -- "Amod_Fortnite_Lineage"
-    -- "Amod_Fortnite_Nimble"
-    -- "Amod_Fortnite_Noodles"
 	["ytpmv"] = {
 		Config = {
-			Anim = "amod_fortnite_lineage",
+			Anim = "amod_fortnite_breakfastcoffeedance",
 			Name = "YTPMV - Kwik Flip",
 			class = 1,
+			Rate = 1.25,
 			isNew = true
+		},
+		About = {
+			Author = "moxiu"
 		},
 		Camera = {
 			Follow = false,
@@ -27,13 +16,14 @@ return {
 		},
 		Custom = {
 			Anim = {
-				Time1 = 10.462,
-				Time2 = 6.99,
-				Cycle = 0.33333334326744
+				Time1 = 286.0,
+				Time2 = 286.0, -- 286
+				Cycle = 0.097720421850681,
+				Sync = true
 			},
 			Sound = {
-				Time1 = 200.12,
-				Time2 = 200.12
+				Time1 = 165.323480,
+				Sync = true
 			}									
 		},	
 		Coop = {  
@@ -42,7 +32,7 @@ return {
 		},
 		Sounds = {
 			Start = {
-				Sound = "actmod/AB/ytpmv.mp3",
+				Sound = "actmod/AB/kwik.mp3",
 				Delay = 0
 			}
 		}
@@ -57,6 +47,9 @@ return {
 			Rate = 0.995,
 			isNew = true
 		},
+		About = {
+			Author = "moxiu"
+		},
 		Camera = {
 			Follow = false,
 			Transition = 1.5
@@ -65,11 +58,12 @@ return {
 			Anim = {
 				Time1 = 10.462,
 				Time2 = 6.99,
-				Cycle = 0.33333334326744
+				Cycle = 0.33333334326744,
+				Sync = true
 			},
 			Sound = {
-				Time1 = 200.12,
-				Time2 = 200.12
+				Time1 = 132.583077,
+				Sync = true
 			}									
 		},	
 		Coop = {  
